@@ -1,3 +1,4 @@
 # MineWatcher
-A work in progress minecraft bot for multi-purpose use.  
+A work in progress minecraft bot for multi-purpose use.
+
 See [todo.md](todo.md)
