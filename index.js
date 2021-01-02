@@ -8,7 +8,6 @@ const bot = mineflayer.createBot(config.BotOptions);
 
 // currently used for mcData
 const Data = {};
-
 const commands = {};
 let commandsLoaded = false;
 

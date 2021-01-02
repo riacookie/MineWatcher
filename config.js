@@ -2,7 +2,7 @@ const config = {
 	BotOptions: {
 		username: 'MineWatcherBot',
 		host: 'localhost',
-		port: 59341
+		port: 29043
 	},
 	CommandsPath: './commands',
 	Prefix: '>'

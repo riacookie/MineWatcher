@@ -2,7 +2,10 @@ const { Movements, goals } = require('mineflayer-pathfinder');
 const GoalFollow = goals.GoalFollow;
 
 module.exports.run = (bot, username, args, mcData) => {
-	if (!args) return;
+	if (args.length < 1) {
+		bot.chat('Missing arguments [true/false]');
+		return;
+	}
 
 	if (args[0].toLowerCase() === 'true') {
 		const player = bot.players[username];
