@@ -1,0 +1,15 @@
+{
+  "name": "minewatcher",
+  "version": "1.0.0",
+  "description": "A minecraft bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "oofiedev",
+  "license": "MIT",
+  "dependencies": {
+    "mineflayer": "^2.39.2",
+    "mineflayer-pathfinder": "^1.2.3"
+  }
+}
